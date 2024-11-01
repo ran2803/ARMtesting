@@ -4,7 +4,7 @@ void div_reg_assm(void) {
 	// Checking that the op code matches
 	// strcmp(string1, string2) return 0 if they match
 	if (strcmp(OP_CODE, "DIV") != 0) {
-		// If the op code doesnt match, this isnt the correct command
+		// If the op code doesnt match, this aint it
 		state = WRONG_COMMAND;
 		return;
 	}
